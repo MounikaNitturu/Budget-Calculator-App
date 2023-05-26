@@ -1,0 +1,74 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width:700px;
+    margin: 20px auto;
+    flex-direction: column;
+    // @media only screen and (max-width: 992px) {
+    //     width: 70%
+    // }
+
+    @media only screen and (max-width:768px) {
+        flex-wrap: wrap;
+        // width: 100%
+    }
+    .inputs-boxes{
+        display:flex;
+        gap:20px
+    }
+
+    .description-input {
+        flex: 1;
+        min-width: 200px;
+        margin-right: 20px;
+    }
+
+    .amount-input {
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}
+
+ .buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+::ng-deep {
+    .mat-mdc-raised-button:not(:disabled) {
+        border-radius: 20px;
+    }
+
+    .green-btn {
+        background-color: rgb(67, 170, 139) !important;
+        color: #fff !important;
+        transition: 0.5s ease-out !important;
+        &:hover {
+            background-color: #fff !important;
+            color: rgb(67, 170, 139) !important;
+        }
+    }
+
+    .red-btn {
+        background-color: rgb(188, 71, 73) !important;
+        color: #fff !important;
+        transition: 0.5s ease-out !important;
+
+        &:hover {
+            background-color: #fff !important;
+            color: rgb(188, 71, 73) !important;
+        }
+    }
+}
+// form{
+//     display: inline-block;
+//     min-width: 100%;
+// }

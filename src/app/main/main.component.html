@@ -1,0 +1,26 @@
+<!-- <p>main works!</p> -->
+<div class="main-container">
+    <h1 class="main-row">Budget Calculator</h1>
+    <div class="budget-number">
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Money Earned</mat-card-title>
+              <mat-card-subtitle class="money-earned">₹ <span class="money">{{moneyEarned}}</span></mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Money Available </mat-card-title>
+              <mat-card-subtitle class="money-available">₹ <span class="money">{{moneyAvailable}}</span></mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Money Spent </mat-card-title>
+              <mat-card-subtitle class="money-spent">₹ <span class="money">{{moneySpent}}</span></mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+    </div>
+    <app-add-item (addincome)="onaddincome($event)" (addexpense)="onaddexpense($event)"></app-add-item>
+    <app-budget-item-list (incomeDeleted)="incomeItemDeleted($event)" (expenseDeleted)="expenseItemDeleted($event)"></app-budget-item-list>
+</div>

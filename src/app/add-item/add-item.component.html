@@ -1,0 +1,17 @@
+<div class="input-container">
+    <div class="inputs-boxes">
+        <mat-form-field class="example-full-width amount-input" appearance="outline">
+            <mat-label>Amount</mat-label>
+            <input matInput type="number" [(ngModel)]="amount">
+        </mat-form-field>
+        <mat-form-field class="example-full-width description-input" appearance="outline" >
+            <mat-label>Description</mat-label>
+            <!-- <input matInput type="text" [(ngModel)]="description" (keypress)="letterOnly($event)"> -->
+            <input matInput type="text" [(ngModel)]="description" >
+        </mat-form-field>
+    </div>
+    <div class="buttons-container">
+        <button mat-raised-button class="green-btn" type="submit"  (click)="onIncomeAdd()">Add income</button>
+        <button mat-raised-button class="red-btn" type="submit" (click)="onExpenseAdd()">Add expense</button>
+    </div>
+</div>

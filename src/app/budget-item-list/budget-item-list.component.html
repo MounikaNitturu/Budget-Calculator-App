@@ -1,0 +1,37 @@
+<div class="budget-items-section">
+    <div class="budget-items-container">
+        <div class="income-container">
+            <h1 class="income">Income</h1>
+            <div *ngFor="let item of incomeItems">
+                <!-- <app-budget-card [isincome]=true ></app-budget-card> -->
+                <div class="budget-card">
+                    <div class="budget-item" [ngClass]="{ 'income': true}">
+                        <div class="description">
+                            <p>{{item.description}}</p>
+                        </div>
+                        <div class="amount">
+                            <p>{{item.amount}}</p>
+                        </div>
+                    </div>
+                    <mat-icon class="close-btn" (click)="ondeleteincome(item)">close</mat-icon>
+                </div>
+            </div>
+        </div>
+        <div class="expenses-container">
+            <h1 class="expenses">Expenses</h1>
+            <div *ngFor="let item of expenseItems">
+                <!-- <app-budget-card [isexpense]="true" ></app-budget-card> -->
+                <div class="budget-card">
+                    <div class="budget-item" [ngClass]="{ 'expense': true}">
+                        <div class="description">
+                            <p>{{item.description}}</p>
+                        </div>
+                        <div class="amount">
+                            <p>{{item.amount}}</p>
+                        </div>
+                    </div>
+                    <mat-icon class="close-btn" (click)="ondeleteexpense(item)">close</mat-icon>
+                </div>
+            </div>
+        </div>
+    </div>
