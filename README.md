@@ -32,6 +32,9 @@ To run the Budget Calculator App locally, follow these steps:
 4. Start the development server: ng serve
 5. Open your browser and visit http://localhost:4200 to access the app.
 
+## License  
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
