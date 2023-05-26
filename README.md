@@ -18,7 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Technologies Used
 
 - **Angular**: The front-end of the app is built using the Angular framework, providing a modular and efficient structure.
-- **HTML/CSS**: The app's user interface is created using HTML for markup and CSS for styling.
+- **HTML/SCSS**: The app's user interface is created using HTML for markup and SCSS for styling.
 - **Angular Material**: The Angular Material framework is utilized for responsive layout and pre-designed UI components.
 - **TypeScript**: The application logic and functionality are implemented using TypeScript, a typed superset of JavaScript.
 
