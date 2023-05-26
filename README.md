@@ -13,7 +13,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 - **Budget Planning**: Set monthly budgets for different expense categories to help you stay on track.
 - **Visualizations**: Visualize your spending patterns with interactive charts and graphs.
 - **Responsive Design**: The app is designed to work seamlessly across various devices and screen sizes.
-- 
+
 ## Technologies Used
 
 - **Angular**: The front-end of the app is built using the Angular framework, providing a modular and efficient structure.
