@@ -7,11 +7,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Features
+
 - **Expense Tracking**: Easily add and categorize expenses to keep track of your spending.
 - **Income Management**: Record your income sources and monitor your overall financial situation.
 - **Budget Planning**: Set monthly budgets for different expense categories to help you stay on track.
 - **Visualizations**: Visualize your spending patterns with interactive charts and graphs.
 - **Responsive Design**: The app is designed to work seamlessly across various devices and screen sizes.
+- 
+## Technologies Used
+
+- **Angular**: The front-end of the app is built using the Angular framework, providing a modular and efficient structure.
+- **HTML/CSS**: The app's user interface is created using HTML for markup and CSS for styling.
+- **Angular Material**: The Angular Material framework is utilized for responsive layout and pre-designed UI components.
+- **TypeScript**: The application logic and functionality are implemented using TypeScript, a typed superset of JavaScript.
 
 ## Further help
 
