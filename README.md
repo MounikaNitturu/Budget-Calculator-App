@@ -23,10 +23,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Getting Started
 
-To run the Budget Calculator App locally, follow these steps:
+To run the Budget Calculator App locally, follow these steps:  
 
-1. Clone this repository:git clone https://github.com/MounikaNitturu/Budget-Calculator-App/
-2. Navigate to the project directory:cd Budget-Calculator
+1. Clone this repository:git clone https://github.com/MounikaNitturu/Budget-Calculator-App/  
+2. Navigate to the project directory:cd Budget-Calculator  
 3. Install dependencies:npm install  
 4.Start the development server:ng serve  
 5.Open your browser and visit http://localhost:4200 to access the app.
